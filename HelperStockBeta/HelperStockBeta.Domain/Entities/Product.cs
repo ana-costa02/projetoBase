@@ -28,8 +28,7 @@ namespace HelperStockBeta.Domain.Entities
         }
         private void ValidationDomain(string name, string description, decimal price, int stock, string image)
         {
-            DomainExceptionValidation.When(string.IsNullOrEmpty(name),
-                "Invalid name, name is required.");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid name, name is required.");
             DomainExceptionValidation.When(name.Length < 3,
                 "Invalid short names, minimum 3 characteres.");
             DomainExceptionValidation.When(string.IsNullOrEmpty(description),
