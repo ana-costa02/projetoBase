@@ -9,7 +9,9 @@
       "HelperStockBeta.API/1.0.0": {
         "dependencies": {
           "HelperStockBeta.Infra.IoC": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Swashbuckle.AspNetCore.Swagger": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
         },
         "runtime": {
           "HelperStockBeta.API.dll": {}

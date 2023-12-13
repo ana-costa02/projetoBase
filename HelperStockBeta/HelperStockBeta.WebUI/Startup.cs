@@ -16,6 +16,5 @@ namespace HelperStockBeta.WebUI
             services.AddControllersWithViews();
         }
 
-
     }
 }

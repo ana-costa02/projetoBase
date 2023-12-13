@@ -1,5 +1,6 @@
 ﻿using HelperStockBeta.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace HelperStockBeta.Infra.Data.Context
 {
@@ -17,5 +18,7 @@ namespace HelperStockBeta.Infra.Data.Context
             base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
+
+        
     }
 }
